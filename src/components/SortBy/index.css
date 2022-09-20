@@ -1,0 +1,19 @@
+.sorting {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 40px;
+  font-family: sans-serif;
+}
+.dropDown {
+  background-color: cornflowerblue;
+  border-width: 0px;
+  height: 25px;
+  width: 60px;
+  margin-left: 10px;
+  color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

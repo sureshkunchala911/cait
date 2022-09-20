@@ -1,0 +1,8 @@
+.backg {
+  background-color: rgb(219, 213, 201);
+  height: 150vh;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  font-family: sans-serif;
+}

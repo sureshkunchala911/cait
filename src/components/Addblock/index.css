@@ -1,0 +1,245 @@
+.bell {
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.HeaderContainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  font-family: sans-serif;
+  margin: 20px;
+}
+.block1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.calender {
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.date {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.day {
+  margin-right: 5px;
+}
+.bg2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70w;
+}
+.button {
+  background-color: darkorange;
+  border-width: 0px;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.line {
+  color: sienna;
+  font-size: 5px;
+  width: 100%;
+}
+.closingContainer {
+  background-color: white;
+  height: 100%;
+  width: 90vw;
+  box-shadow: 2px 2px 20px 1px;
+  padding: 20px;
+}
+.popup {
+  display: flex;
+  flex-direction: column;
+}
+.closeButton {
+  align-self: flex-end;
+}
+.closingCard {
+  display: flex;
+  flex-direction: row;
+}
+.vl {
+  border-left: 2px solid black;
+  opacity: 20%;
+  height: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.boxes123 {
+  height: 30px;
+  width: 200px;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: lightgray;
+}
+.heading {
+  font-family: sans-serif;
+}
+label {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+textarea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.hr {
+  height: 30px;
+  width: 200px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: lightgray;
+}
+.extra1 {
+  border-color: #2196f3;
+  border-width: 2px;
+}
+.extra2 {
+  height: 25px;
+  width: 200px;
+  border: 2px solid darkcyan;
+  background-color: aqua;
+}
+.cross {
+  margin-left: 70px;
+}
+.extra3 {
+  height: 25px;
+  width: 200px;
+  border: 2px solid palevioletred;
+  background-color: lightcoral;
+}
+.cross1 {
+  margin-left: 70px;
+}
+.extra4 {
+  height: 25px;
+  width: 200px;
+  border: 2px solid violet;
+  background-color: lightpink;
+}
+.selectDate {
+  height: 30px;
+  width: 150px;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: lightgray;
+}
+.dateAndTime {
+  margin-left: 100px;
+}
+.lastcard {
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+.text {
+  margin-right: 20px;
+  font-family: sans-serif;
+}
+.button123 {
+  height: 30px;
+
+  width: 150px;
+  border-width: 0px;
+  background-color: orange;
+  color: white;
+}
